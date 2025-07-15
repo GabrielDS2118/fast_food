@@ -1,3 +1,4 @@
+import CarButton from "@/components/CarButton";
 import { images, offers } from "@/constants";
 import cn from 'clsx';
 import { Fragment } from "react";
@@ -61,7 +62,7 @@ export default function Index() {
 
             </View>
 
-            <Text>Cart</Text>
+            <CarButton/>
           </View>
         )}
       ></FlatList>
